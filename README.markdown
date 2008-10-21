@@ -18,7 +18,7 @@ Fix a broken <code>Image</code> object:
 Fix a broken image tag:
 
 <pre>
-  <img src="/might/be/broken.png" alt="Might be broken" id="myImage" />
+  &lt;img src="/might/be/broken.png" alt="Might be broken" id="myImage" /&gt;
 
   $('#myImage').brokenImage();
 </pre>
@@ -26,10 +26,10 @@ Fix a broken image tag:
 Fix a collection of images:
 
 <pre>
-  <div id="myImages">
-    <img src="/might/be/broken" alt="Might be broken" />
-    <img src="/might/also/be/broken" alt="Might also be broken" />
-  </div>
+  &lt;div id="myImages"&gt;
+    &lt;img src="/might/be/broken" alt="Might be broken" /&gt;
+    &lt;img src="/might/also/be/broken" alt="Might also be broken" /&gt;
+  &lt;/div>
 
   $('#myImages img').brokenImage();
 </pre>
