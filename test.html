@@ -24,9 +24,6 @@
   <script type="text/javascript">
     //<![CDATA[
     (function ($) {
-      var trans = 'data:image/gif;base64,' +
-        'R0lGODlhAQABALMAAEJC////////////////////////////////////////////////////////////' +
-        '/yH5BAEAAAAALAAAAAABAAEAQAQCEEQAOw==';
       // Note, tests assume this file exists - first thing to check if the tests start failing
       var exists = 'http://static.jquery.com/files/rocker/images/logo_jquery_215x53.gif';
 
@@ -54,8 +51,8 @@
 
         stop();
 
-        $(image).load(function () {
-          ok(image.src === trans, 'Image source replaced with transparent GIF');
+        $(image).error(function () {
+          ok($(image).css('visibility') === 'hidden', 'Image hidden');
           start();
         });
 
@@ -71,8 +68,8 @@
 
         stop();
 
-        $(image).load(function () {
-          ok(image.src === trans, 'Image source replaced with transparent GIF');
+        $(image).error(function () {
+          ok($(image).css('visibility') === 'hidden', 'Image hidden');
           start();
         });
 

@@ -23,10 +23,7 @@
   $.extend($.fn, {
     brokenImage: function (options) {
       var defaults = {
-        timeout:     5000,
-        replacement: 'data:image/gif;base64,' +
-          'R0lGODlhAQABALMAAEJC////////////////////////////////////////////////////////////' +
-          '/yH5BAEAAAAALAAAAAABAAEAQAQCEEQAOw==' // Transparent gif
+        timeout: 5000
       };
 
       options = $.extend(defaults, options);
@@ -51,7 +48,7 @@
         }, options.timeout);
 
         function insertPlaceholder() {
-          image.src = options.replacement;
+          options.replacement ? image.src = options.replacement : $(image).css({visibility: 'hidden'});
         }
       });
     }

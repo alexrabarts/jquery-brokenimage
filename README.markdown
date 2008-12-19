@@ -1,9 +1,8 @@
 # brokenImage: a jQuery plugin
 
 brokenImage is a jQuery plugin that is able to detect and replace images
-that are either broken or are taking a long time to load.  The default
-replacement is a transparent GIF (no extra image file required).  The
-replacement image and the timeout for slow-loading images are configurable.
+that are either broken or are taking a long time to load.  If no replacement
+image is specified then the CSS visibility is set to hidden.
 
 ## Usage
 
@@ -34,7 +33,7 @@ Fix a collection of images:
   $('#myImages img').brokenImage();
 </pre>
 
-Set a custom image replacement instead of a blank GIF:
+Set a custom image replacement instead of setting the visibility to hidden:
 
 <pre>
   image.brokenImage({replacement: '/images/placeholder.png'});
