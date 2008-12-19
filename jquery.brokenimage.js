@@ -16,7 +16,7 @@
  *
  * @author   Alex Rabarts (alexrabarts -at- gmail -dawt- com)
  * @requires jQuery v1.2 or later
- * @version  0.1
+ * @version  0.2
  */
 
 (function ($) {
