@@ -8,11 +8,11 @@ image is specified then the CSS visibility is set to hidden.
 
 Fix a broken <code>Image</code> object:
 
-  <pre>
-    var image = new Image();
-    image.src = '/might/be/broken.png';
-    image.brokenImage();
-  </pre>
+<pre>
+  var image = new Image();
+  image.src = '/might/be/broken.png';
+  image.brokenImage();
+</pre>
 
 Fix a broken image tag:
 
