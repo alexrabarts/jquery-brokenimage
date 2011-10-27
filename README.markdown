@@ -4,8 +4,6 @@ brokenImage is a jQuery plugin that is able to detect and replace images
 that are either broken or are taking a long time to load.  If no replacement
 image is specified then the CSS visibility is set to hidden.
 
-See full documentation at <a href="http://alexrabarts.github.com/jquery-brokenimage/">http://alexrabarts.github.com/jquery-brokenimage/</a>.
-
 ## Usage
 
 Fix a broken <code>Image</code> object:
@@ -52,4 +50,4 @@ Set a custom timeout to override the 5 second default:
 Licensed under the MIT:
 http://www.opensource.org/licenses/mit-license.php
 
-Copyright (c) 2008 Stateless Systems (http://statelesssystems.com)
+Copyright (c) 2011 Stateless Systems (http://statelesssystems.com)
