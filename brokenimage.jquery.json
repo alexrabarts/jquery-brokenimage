@@ -1,0 +1,21 @@
+{
+  "name": "brokenimage",
+  "version": "1.0.0",
+  "title": "jQuery brokenImage",
+  "author": {
+    "name": "Alex Rabarts",
+    "url": "http://github.com/alexrabarts"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies":  {
+    "jquery": ">=1.2"
+  },
+  "description": "brokenImage is a jQuery plugin that is able to detect and replace images that are either broken or are taking a long time to load.  The default replacement is a transparent GIF (no extra image file required).  The replacement image and the timeout for slow-loading images are configurable.",
+  "homepage": "http://github.com/alexrabarts/jquery-brokenimage",
+  "bugs": "https://github.com/alexrabarts/jquery-brokenimage/issues"
+}

@@ -1,22 +1,9 @@
 /*
  * brokenImage: a jQuery plugin
  *
- * brokenImage is a jQuery plugin that is able to detect and replace images
- * that are either broken or are taking a long time to load.  The default
- * replacement is a transparent GIF (no extra image file required).  The
- * replacement image and the timeout for slow-loading images are configurable.
- *
- * For usage and examples, visit:
- * http://github.com/alexrabarts/jquery-brokenimage/tree/master
- *
  * Licensed under the MIT:
  * http://www.opensource.org/licenses/mit-license.php
  *
- * Copyright (c) 2008 Stateless Systems (http://statelesssystems.com)
- *
- * @author   Alex Rabarts (alexrabarts -at- gmail -dawt- com)
- * @requires jQuery v1.2 or later
- * @version  0.2
  */
 
 (function ($) {
