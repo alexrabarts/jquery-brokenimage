@@ -1,0 +1,25 @@
+{
+  "name": "jquery-brokenimage",
+  "version": "1.0.0",
+  "homepage": "https://github.com/alexrabarts/jquery-brokenimage",
+  "authors": [
+    "Alex Rabarts <alexrabarts@gmail.com>"
+  ],
+  "description": "brokenImage is a jQuery plugin that is able to detect and replace images that are either broken or are taking a long time to load.  If no replacement image is specified then the CSS visibility is set to hidden.",
+  "main": "jquery.brokenimage.js",
+  "keywords": [
+    "jquery",
+    "image",
+    "broken",
+    "404",
+    "missing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
